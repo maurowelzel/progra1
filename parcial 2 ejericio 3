@@ -1,0 +1,23 @@
+// enteros.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+void main()
+
+{
+	int n;
+	do{
+	cout<<"Ingrese un valor :";
+	cin>>n;
+
+	}while (n<0,n%2==0);
+
+		
+	cout<<"El numero es positivo y par";
+	getch();
+}
